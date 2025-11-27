@@ -23,6 +23,10 @@ Criar um conjunto de utilitários modernos capazes de:
 
 ## 📁 Estrutura do Repositório
 
+/tools → Ferramentas individuais do projeto
+/docs → Documentações adicionais
+README.md
+
 ## 📌 Tecnologias Utilizadas
 - Python
 - Java
