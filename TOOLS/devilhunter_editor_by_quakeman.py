@@ -146,12 +146,12 @@ class DevilHunterEditor(tk.Tk):
         ttk.Label(hdr, text='☠ DEVIL HUNTER X · STRING EDITOR',
                   style='Header.TLabel').pack(side='left', padx=(0, 12))
 
-        self.btn_open  = ttk.Button(hdr, text='Abrir .dat',    command=self.open_dat)
-        self.btn_save  = ttk.Button(hdr, text='Salvar .dat',   command=self.save_dat,
+        self.btn_open  = ttk.Button(hdr, text='Open .dat',    command=self.open_dat)
+        self.btn_save  = ttk.Button(hdr, text='Save .dat',   command=self.save_dat,
                                     style='Accent.TButton', state='disabled')
         self.btn_exp   = ttk.Button(hdr, text='Export JSON',   command=self.export_json, state='disabled')
         self.btn_imp   = ttk.Button(hdr, text='Import JSON',   command=self.import_json, state='disabled')
-        self.btn_rst   = ttk.Button(hdr, text='Resetar',       command=self.reset_all,
+        self.btn_rst   = ttk.Button(hdr, text='Reset Strings',       command=self.reset_all,
                                     style='Danger.TButton', state='disabled')
 
         for btn in (self.btn_open, self.btn_save, self.btn_exp, self.btn_imp, self.btn_rst):
